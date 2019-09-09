@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		303121F7232612E000A6553C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303121F6232612E000A6553C /* AppDelegate.swift */; };
 		303121F9232612E000A6553C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303121F8232612E000A6553C /* SceneDelegate.swift */; };
-		303121FB232612E000A6553C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303121FA232612E000A6553C /* ContentView.swift */; };
+		303121FB232612E000A6553C /* TitleSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303121FA232612E000A6553C /* TitleSceneView.swift */; };
 		303121FD232612E200A6553C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303121FC232612E200A6553C /* Assets.xcassets */; };
 		30312200232612E200A6553C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303121FF232612E200A6553C /* Preview Assets.xcassets */; };
 		30312203232612E200A6553C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30312201232612E200A6553C /* LaunchScreen.storyboard */; };
+		3031220B2326168C00A6553C /* BattleWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3031220A2326168C00A6553C /* BattleWindowView.swift */; };
+		3031220E23261CD400A6553C /* PlayerHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3031220D23261CD400A6553C /* PlayerHandView.swift */; };
+		3040115F2327778000076680 /* Judge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3040115E2327778000076680 /* Judge.swift */; };
+		304011622327AFC500076680 /* ResultSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304011612327AFC500076680 /* ResultSceneView.swift */; };
+		304011642327B23A00076680 /* BattleSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304011632327B23A00076680 /* BattleSceneViewModel.swift */; };
+		3063E18F232635A5004A9988 /* BattleSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E18E232635A5004A9988 /* BattleSceneView.swift */; };
+		306F84B923265AFE006565B5 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F84B823265AFE006565B5 /* Hand.swift */; };
+		306F84BB23265B16006565B5 /* BattleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F84BA23265B16006565B5 /* BattleResult.swift */; };
+		306F84BD232663E1006565B5 /* PlayerHandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F84BC232663E1006565B5 /* PlayerHandButton.swift */; };
+		30C425F6232963E8002B7F60 /* ResultSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C425F5232963E8002B7F60 /* ResultSceneViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		303121F3232612E000A6553C /* SwiftyRPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyRPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303121F6232612E000A6553C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		303121F8232612E000A6553C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		303121FA232612E000A6553C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		303121FA232612E000A6553C /* TitleSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSceneView.swift; sourceTree = "<group>"; };
 		303121FC232612E200A6553C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303121FF232612E200A6553C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30312202232612E200A6553C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30312204232612E200A6553C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3031220A2326168C00A6553C /* BattleWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleWindowView.swift; sourceTree = "<group>"; };
+		3031220D23261CD400A6553C /* PlayerHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHandView.swift; sourceTree = "<group>"; };
+		3040115E2327778000076680 /* Judge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Judge.swift; sourceTree = "<group>"; };
+		304011612327AFC500076680 /* ResultSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSceneView.swift; sourceTree = "<group>"; };
+		304011632327B23A00076680 /* BattleSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleSceneViewModel.swift; sourceTree = "<group>"; };
+		3063E18E232635A5004A9988 /* BattleSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleSceneView.swift; sourceTree = "<group>"; };
+		306F84B823265AFE006565B5 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		306F84BA23265B16006565B5 /* BattleResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleResult.swift; sourceTree = "<group>"; };
+		306F84BC232663E1006565B5 /* PlayerHandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHandButton.swift; sourceTree = "<group>"; };
+		30C425F5232963E8002B7F60 /* ResultSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSceneViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +78,9 @@
 			children = (
 				303121F6232612E000A6553C /* AppDelegate.swift */,
 				303121F8232612E000A6553C /* SceneDelegate.swift */,
-				303121FA232612E000A6553C /* ContentView.swift */,
+				3063E18D23263545004A9988 /* Title */,
+				3063E190232635C8004A9988 /* Battle */,
+				304011602327AFAA00076680 /* Result */,
 				303121FC232612E200A6553C /* Assets.xcassets */,
 				30312201232612E200A6553C /* LaunchScreen.storyboard */,
 				30312204232612E200A6553C /* Info.plist */,
@@ -73,6 +95,62 @@
 				303121FF232612E200A6553C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3040115D232776C300076680 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				306F84BC232663E1006565B5 /* PlayerHandButton.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		304011602327AFAA00076680 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				30C425F5232963E8002B7F60 /* ResultSceneViewModel.swift */,
+				304011612327AFC500076680 /* ResultSceneView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		3063E18D23263545004A9988 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				303121FA232612E000A6553C /* TitleSceneView.swift */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		3063E190232635C8004A9988 /* Battle */ = {
+			isa = PBXGroup;
+			children = (
+				306F84B723265AE8006565B5 /* Models */,
+				3063E191232635DC004A9988 /* Subviews */,
+				304011632327B23A00076680 /* BattleSceneViewModel.swift */,
+				3063E18E232635A5004A9988 /* BattleSceneView.swift */,
+			);
+			path = Battle;
+			sourceTree = "<group>";
+		};
+		3063E191232635DC004A9988 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				3040115D232776C300076680 /* Subviews */,
+				3031220A2326168C00A6553C /* BattleWindowView.swift */,
+				3031220D23261CD400A6553C /* PlayerHandView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		306F84B723265AE8006565B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				306F84B823265AFE006565B5 /* Hand.swift */,
+				306F84BA23265B16006565B5 /* BattleResult.swift */,
+				3040115E2327778000076680 /* Judge.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304011622327AFC500076680 /* ResultSceneView.swift in Sources */,
+				306F84B923265AFE006565B5 /* Hand.swift in Sources */,
+				30C425F6232963E8002B7F60 /* ResultSceneViewModel.swift in Sources */,
+				3063E18F232635A5004A9988 /* BattleSceneView.swift in Sources */,
+				304011642327B23A00076680 /* BattleSceneViewModel.swift in Sources */,
+				3031220B2326168C00A6553C /* BattleWindowView.swift in Sources */,
 				303121F7232612E000A6553C /* AppDelegate.swift in Sources */,
+				306F84BD232663E1006565B5 /* PlayerHandButton.swift in Sources */,
+				306F84BB23265B16006565B5 /* BattleResult.swift in Sources */,
+				3031220E23261CD400A6553C /* PlayerHandView.swift in Sources */,
+				3040115F2327778000076680 /* Judge.swift in Sources */,
 				303121F9232612E000A6553C /* SceneDelegate.swift in Sources */,
-				303121FB232612E000A6553C /* ContentView.swift in Sources */,
+				303121FB232612E000A6553C /* TitleSceneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
