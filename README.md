@@ -1,1 +1,1 @@
-[gif](https://github.com/creaaa/SwiftyRPS/blob/master/ss1.gif)
+![gif](https://github.com/creaaa/SwiftyRPS/blob/master/ss1.gif)
