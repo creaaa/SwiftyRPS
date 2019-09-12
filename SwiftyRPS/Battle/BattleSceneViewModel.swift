@@ -41,11 +41,7 @@ class BattleSceneViewModel: ObservableObject {
     }
     
     private func mapEnemyHandToImage(enemyHand: Hand) -> Image {
-        switch enemyHand {
-        case .rock:     return Image("rock")
-        case .scissors: return Image("scissors")
-        case .paper:    return Image("paper")
-        }
+        return Image(enemyHand.rawValue)
     }
     
     // get state back to the point before playing hand

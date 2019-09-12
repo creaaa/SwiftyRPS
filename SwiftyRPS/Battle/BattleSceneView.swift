@@ -55,7 +55,6 @@ struct BattleSceneView: View {
         }) {
             // ここのクロージャ、遷移が発動する瞬間になって初めてコールされる。
             // このビューの画面が開いたときに実行されるのではない。ふーん。マジか。
-            // だから、viewModel.battleResult
             ResultSceneView(viewModel: ResultSceneViewModel(result: self.viewModel.battleResult))
         }
     }
