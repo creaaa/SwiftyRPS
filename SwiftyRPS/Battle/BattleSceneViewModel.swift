@@ -36,12 +36,10 @@ class BattleSceneViewModel: ObservableObject {
         self.battleResult   = Judge.judge(hand: hand, enemyHand: _enemyHand)
     }
     
-    private var enemyHand: Hand {
-        Hand.allCases.randomElement()!
-    }
+    private var enemyHand: Hand { Hand.allCases.randomElement()! }
     
     private func mapEnemyHandToImage(enemyHand: Hand) -> Image {
-        return Image(enemyHand.rawValue)
+        Image(enemyHand.rawValue)
     }
     
     // get state back to the point before playing hand

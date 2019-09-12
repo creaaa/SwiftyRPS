@@ -11,7 +11,7 @@ import SwiftUI
 struct BattleWindowView: View {
     
     @Binding var enemyHandImage: Image
-    @Binding var battleResult:   BattleResult?
+    @Binding var battleResult:   BattleResult!
     @Binding var didEnterDraw:   Bool
 
     var body: some View {
